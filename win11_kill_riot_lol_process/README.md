@@ -38,7 +38,8 @@ win11_kill_riot_lol_process\
 2. **Przejdź do folderu projektu:**
    ```powershell / CMD
    cd "Twoja ścieżka do skryptu"\win11_kill_riot_lol_process
-
+ ```
+ 
 3. **Uruchom skrypt:**
    python kill_riot.py
 
