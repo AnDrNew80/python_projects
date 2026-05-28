@@ -114,11 +114,11 @@ def analyze_ci_content(content: str) -> dict:
 
 def format_risk(risky_count: int, total_count: int) -> str:
     if risky_count == 0:
-        return "✅ NISKIE  (prawdopodobnie tylko własne registry)"
+        return "NISKIE  (prawdopodobnie tylko własne registry)"
     elif risky_count <= 2:
-        return "⚠️  ŚREDNIE (wymaga sprawdzenia)"
+        return "ŚREDNIE (wymaga sprawdzenia)"
     else:
-        return "🔴 WYSOKIE (wiele cross-project użyć)"
+        return "WYSOKIE (wiele cross-project użyć)"
 
 
 def main():
